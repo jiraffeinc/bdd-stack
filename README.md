@@ -1,11 +1,32 @@
 # BDD で Stack を作る講習
 
+## 目的
+
+ジラフのエンジニアの基礎能力として BDD を全員が出来るようにしたい。
+
+## BDD の効用
+
+- 少なくとも正常系の spec があることが保証される。
+- cli で回すので一度の試行錯誤にかかる時間が短縮され、結果的に大きなアウトプットが出来るようになる。
+- API を先に考えなkれば spec は書けないので結果的にしっかり考えられた API になる。
+- 技術力++
+
+# 事前準備
+
+rspec を単体で使います。
+
+```sh
+$ gem install rspec
+```
+
+# 講習
+
 ## No.0 空の class を作る
 
 ### コマンド
 
 ```sh
-$ mkdir {lib, spec}
+$ mkdir {lib,spec}
 $ touch lib/stack.rb spec/spec_helper.rb spec/stack_spec.rb
 ```
 ### ファイル
